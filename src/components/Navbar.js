@@ -93,7 +93,7 @@ const App = () => {
 
   const toggleTheme = () => {
     setDarkTheme(prevTheme => {
-      document.body.style.backgroundColor = prevTheme ? 'lightgray' : 'black ';
+      document.body.style.backgroundColor = prevTheme ? 'black' : 'black ';
       document.body.style.color = prevTheme ? 'black' : 'white';
       return !prevTheme;
     });
